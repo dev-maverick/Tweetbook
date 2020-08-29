@@ -20,12 +20,16 @@
         <option value="$PROJECT_DIR$/Tweetbook/Controllers/TestController.cs" />
         <option value="$PROJECT_DIR$/Tweetbook/appsettings.json" />
         <option value="$PROJECT_DIR$/Tweetbook/Configs/SwaggerConfigurations.cs" />
-        <option value="$PROJECT_DIR$/Tweetbook/Startup.cs" />
         <option value="$PROJECT_DIR$/Tweetbook/Domain/Post.cs" />
         <option value="$PROJECT_DIR$/Tweetbook/Controllers/PostsController.cs" />
         <option value="$PROJECT_DIR$/Tweetbook/Contracts/ApiRoutes.cs" />
         <option value="$PROJECT_DIR$/Tweetbook/Contracts/V1/ApiRoutes.cs" />
         <option value="$PROJECT_DIR$/Tweetbook/Controllers/V1/PostsController.cs" />
+        <option value="$PROJECT_DIR$/Tweetbook/Installers/IInstaller.cs" />
+        <option value="$PROJECT_DIR$/Tweetbook/Installers/MvcInstaller.cs" />
+        <option value="$PROJECT_DIR$/Tweetbook/Installers/DbInstaller.cs" />
+        <option value="$PROJECT_DIR$/Tweetbook/Startup.cs" />
+        <option value="$PROJECT_DIR$/Tweetbook/Installers/InstallerExtensions.cs" />
       </list>
     </option>
   </component>
@@ -78,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598727649478</updated>
-      <workItem from="1598727654798" duration="4019000" />
+      <workItem from="1598727654798" duration="5237000" />
     </task>
     <servers />
   </component>
@@ -92,25 +96,64 @@
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state x="750" y="449" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1280@0.0.2048.1280" timestamp="1598728170161" />
-    <state width="2006" height="371" key="GridCell.Tab.0.bottom" timestamp="1598738083078">
+    <state width="451" height="464" key="DebuggerActiveHint" timestamp="1598739611248">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="2006" height="371" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1598738083078" />
+    <state width="451" height="464" key="DebuggerActiveHint/0.0.2048.1280@0.0.2048.1280" timestamp="1598739611248" />
+    <state width="2006" height="483" key="GridCell.Tab.0.bottom" timestamp="1598739622749">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="483" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1598739622749" />
     <state width="2006" height="371" key="GridCell.Tab.0.bottom/0.23.2048.1177@0.23.2048.1177" timestamp="1598736106762" />
-    <state width="2006" height="371" key="GridCell.Tab.0.center" timestamp="1598738083076">
+    <state width="2006" height="483" key="GridCell.Tab.0.center" timestamp="1598739622747">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="2006" height="371" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1598738083076" />
+    <state width="2006" height="483" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1598739622747" />
     <state width="2006" height="371" key="GridCell.Tab.0.center/0.23.2048.1177@0.23.2048.1177" timestamp="1598736106761" />
-    <state width="2006" height="371" key="GridCell.Tab.0.left" timestamp="1598738083075">
+    <state width="2006" height="483" key="GridCell.Tab.0.left" timestamp="1598739622747">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="2006" height="371" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1598738083075" />
+    <state width="2006" height="483" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1598739622747" />
     <state width="2006" height="371" key="GridCell.Tab.0.left/0.23.2048.1177@0.23.2048.1177" timestamp="1598736106761" />
-    <state width="2006" height="371" key="GridCell.Tab.0.right" timestamp="1598738083077">
+    <state width="2006" height="483" key="GridCell.Tab.0.right" timestamp="1598739622748">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="2006" height="371" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1598738083077" />
+    <state width="2006" height="483" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1598739622748" />
     <state width="2006" height="371" key="GridCell.Tab.0.right/0.23.2048.1177@0.23.2048.1177" timestamp="1598736106762" />
+    <state width="2006" height="483" key="GridCell.Tab.1.bottom" timestamp="1598739593944">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="483" key="GridCell.Tab.1.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1598739593944" />
+    <state width="2006" height="483" key="GridCell.Tab.1.center" timestamp="1598739593944">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="483" key="GridCell.Tab.1.center/0.0.2048.1280@0.0.2048.1280" timestamp="1598739593944" />
+    <state width="2006" height="483" key="GridCell.Tab.1.left" timestamp="1598739593943">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="483" key="GridCell.Tab.1.left/0.0.2048.1280@0.0.2048.1280" timestamp="1598739593943" />
+    <state width="2006" height="483" key="GridCell.Tab.1.right" timestamp="1598739593944">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="483" key="GridCell.Tab.1.right/0.0.2048.1280@0.0.2048.1280" timestamp="1598739593944" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Tweetbook/Startup.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/Tweetbook/Startup.cs" initialLine="32">
+            <startOffsets>
+              <option value="971" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1208" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

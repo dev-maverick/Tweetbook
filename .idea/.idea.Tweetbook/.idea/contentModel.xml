@@ -34,6 +34,12 @@
         <e p="Domain" t="Include">
           <e p="Post.cs" t="Include" />
         </e>
+        <e p="Installers" t="Include">
+          <e p="DbInstaller.cs" t="Include" />
+          <e p="IInstaller.cs" t="Include" />
+          <e p="InstallerExtensions.cs" t="Include" />
+          <e p="MvcInstaller.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
