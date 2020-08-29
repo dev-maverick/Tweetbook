@@ -16,6 +16,12 @@
         <e p="Contracts" t="Include">
           <e p="V1" t="Include">
             <e p="ApiRoutes.cs" t="Include" />
+            <e p="Requests" t="Include">
+              <e p="CreatePostRequest.cs" t="Include" />
+            </e>
+            <e p="Responses" t="Include">
+              <e p="PostResponse.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Controllers" t="Include">
