@@ -1,8 +1,6 @@
-using System;
-
 namespace Tweetbook.Contracts.V1.Requests
 {
-    public class CreatePostRequest
+    public class UpdatePostRequest
     {
         public string Name { get; set; }
     }

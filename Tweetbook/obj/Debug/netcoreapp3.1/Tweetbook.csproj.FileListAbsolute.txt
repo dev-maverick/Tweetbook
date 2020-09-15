@@ -77,3 +77,7 @@
 /Users/kwekuayepah/RiderProjects/Tweetbook/Tweetbook/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
 /Users/kwekuayepah/RiderProjects/Tweetbook/Tweetbook/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/kwekuayepah/RiderProjects/Tweetbook/Tweetbook/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/kwekuayepah/RiderProjects/Tweetbook/Tweetbook/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.Design.dll
+/Users/kwekuayepah/RiderProjects/Tweetbook/Tweetbook/bin/Debug/netcoreapp3.1/Npgsql.dll
+/Users/kwekuayepah/RiderProjects/Tweetbook/Tweetbook/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/kwekuayepah/RiderProjects/Tweetbook/Tweetbook/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
